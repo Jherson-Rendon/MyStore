@@ -98,7 +98,7 @@ margin-bottom: 4px;
 .login-button{
     margin-top: 14px;
     margin-bottom: 30px;
-    
+
 }
 
 @media(max-width: 640px){
@@ -106,7 +106,7 @@ margin-bottom: 4px;
         display: block;
     }
 
-
+  
 }
 
 :root {
