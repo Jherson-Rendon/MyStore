@@ -14,38 +14,6 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-
-.card-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 240px);
-    gap: 26px;
-}
-
-.produtc-card{
-    width: 240px;
-}
-
-.product-card img{
-    width: 240px;
-    height: 240px;
-    border-radius: 20px;
-    object-fit:  cover;
-}
-
-.product-info{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.product-info figure{
-   margin: 0;
-}
-.product-info figure img{
-    width: 35px;
-    height: 35px;
-}
 .login{
     width: 100%;
     height: 100vh;
@@ -129,6 +97,9 @@ margin-bottom: 4px;
     font-weight: bold;
     font-size: var(--md);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
     margin-top: 0;
     margin-bottom: 4px;
 }
@@ -138,7 +109,10 @@ margin-bottom: 4px;
     margin-bottom: 0;
     color: var(--very-light-pink);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 .product-info figure{
     margin: 0;
 
@@ -147,37 +121,29 @@ margin-bottom: 4px;
     width: 35px;
     height: 35px;
 
+<<<<<<< HEAD
 =======
     font-weight: bold;
     height: 50px;
 >>>>>>> c34df14a3343b07ad0fb55b12be6a81d0e42b8f5
+=======
+>>>>>>> main
 }
 
-.login-button{
-    margin-top: 14px;
-    margin-bottom: 30px;
-}
-.img{
-    width: 300px;
-    height: 300px;
-}
+
 
 @media(max-width: 640px){
-   
-
-    .card-container{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 140px);
+    .cards-container{
+        grid-template-columns: repeat(auto-fill, 140px); 
     }
-
-    .produtc-card{
+    .product-card{
         width: 140px;
     }
-    
     .product-card img{
         width: 140px;
         height: 140px;
-       
+
     }
+
  
 }
