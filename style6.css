@@ -14,6 +14,38 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    gap: 26px;
+}
+
+.produtc-card{
+    width: 240px;
+}
+
+.product-card img{
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+    object-fit:  cover;
+}
+
+.product-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.product-info figure{
+   margin: 0;
+}
+.product-info figure img{
+    width: 35px;
+    height: 35px;
+}
 .login{
     width: 100%;
     height: 100vh;
@@ -90,13 +122,21 @@ margin-bottom: 4px;
 }
 
 @media(max-width: 640px){
-    .form-container{
-        height: 100%;
-    }
-    .form{
-        height: 100%;
-        justify-content: space-between;
+   
+
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 140px);
     }
 
+    .produtc-card{
+        width: 140px;
+    }
+    
+    .product-card img{
+        width: 140px;
+        height: 140px;
+       
+    }
  
 }
