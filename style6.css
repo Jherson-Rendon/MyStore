@@ -96,10 +96,6 @@ margin-bottom: 4px;
 .product-info div p:nth-child(1){
     font-weight: bold;
     font-size: var(--md);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> main
     margin-top: 0;
     margin-bottom: 4px;
 }
@@ -109,10 +105,6 @@ margin-bottom: 4px;
     margin-bottom: 0;
     color: var(--very-light-pink);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 .product-info figure{
     margin: 0;
 
@@ -121,14 +113,6 @@ margin-bottom: 4px;
 .product-info figure img{
     width: 35px;
     height: 35px;
-
-<<<<<<< HEAD
-=======
-    font-weight: bold;
-    height: 50px;
->>>>>>> c34df14a3343b07ad0fb55b12be6a81d0e42b8f5
-=======
->>>>>>> main
 }
 
 
