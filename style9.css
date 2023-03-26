@@ -7,10 +7,10 @@
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
-  }
+}
 
-  body{
+body {
     margin: 0;
     font-family: 'Quicksand',
-    sans-serif;
-  }
+        sans-serif;
+}
