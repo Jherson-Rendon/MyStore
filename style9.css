@@ -11,12 +11,7 @@
 
 body {
     margin: 0;
-    font-family: 'Quicksand',
-<<<<<<< HEAD
-        sans-serif;
-}
-=======
-    sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
 
   .my-order{
@@ -91,4 +86,3 @@ body {
     font-size: var(--md);
     font-weight: bold;
   }
->>>>>>> 208bf802af1981587e5053f7597552a6c18e0ae7
