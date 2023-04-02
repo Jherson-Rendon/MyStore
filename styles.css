@@ -349,6 +349,7 @@ nav {
 
   .product-detail {
     width: 100%;
+    background-color: var(--white);
   }
 
   .cards-container{
