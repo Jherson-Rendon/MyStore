@@ -75,13 +75,13 @@ function renderProducts(arr)
     
 for (product of arr){
     const productCard =document.createElement('div');
-    productCard.classList.add('poduct-card');
+    productCard.classList.add('product-card');
 
     const productImg = document.createElement('img');
     productImg.setAttribute('src',product.image);
 
     const productInfo =document.createElement('div');
-    productInfo.classList.add('poduct-info');
+    productInfo.classList.add('product-info');
 
     const productInfoDiv =document.createElement('div');
 
